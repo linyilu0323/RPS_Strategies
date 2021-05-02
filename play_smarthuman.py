@@ -62,8 +62,9 @@ while N_rounds < MAX_ROUNDS:
     prev_choice_player2 = 2
     prev_res = 0
 
-    # play against "smart human"
+    # play against computer
     player2_choice = smart_human_choice(prev_choice_player2, -prev_res)
+    # player2_choice = random_choice()
     prev_res = check_decision(player1_choice, player2_choice)
     prev_choice_player2 = player2_choice
 
