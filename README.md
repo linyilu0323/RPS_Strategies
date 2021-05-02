@@ -32,4 +32,4 @@ Observations:
 Files:
 
 - `rps.py` is used to evaluate two pairs of RPS strategy by repeating the game 1000 times and print the win-lose results.
-- `play_smarthuman.py` is an interactive play, it takes your input (0 - rock; 1- paper; 2 - scissors) and you will be competing with the `smart_human_choice` strategy mentioned above.
+- `play_smarthuman.py` is an interactive play, it takes your input (0 - rock; 1- paper; 2 - scissors) and you will be competing with the `smart_human_choice` strategy mentioned above for 10 rounds.
